@@ -4,16 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  TestBed.configureTestingModule({
-  imports: [ SharedModule ],
   declarations: [
-    AppComponent
+  AppComponent
   ],
-  providers: []
-});
- // declarations: [
-   // AppComponent
-  //],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserTransferStateModule
