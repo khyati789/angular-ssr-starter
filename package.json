@@ -13,7 +13,6 @@
     "build:client-and-server-bundles": "ng build --prod && ng run demo:server:production",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "start-ssr": "npm run build:ssr && npm run serve:ssr"
-    "sonar": "sonar-scanner"
   },
   "private": true,
   "dependencies": {
