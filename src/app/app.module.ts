@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   providers: []
-})
+});
  // declarations: [
    // AppComponent
   //],
